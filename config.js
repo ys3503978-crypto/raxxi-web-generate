@@ -1,0 +1,1 @@
+window.RAXZI_CONFIG={SUPABASE_URL:"https://zxinbzwthdqcwajvdexx.supabase.co",SUPABASE_PUBLISHABLE_KEY:"sb_publishable_4nCYpqPNHD-ug8fF5ZSD6w_RF2aoTed"};

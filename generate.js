@@ -1,0 +1,1 @@
+import {db} from './_db.js';export default async function(req,res){if(req.method!=='POST')return res.status(405).end();const {data,error}=await db.rpc('raxzi_claim_key');if(error)return res.status(500).json({error:'Kesalahan server'});if(!data)return res.status(404).json({error:'Key belum tersedia'});res.setHeader('Cache-Control','no-store');res.json({key:data});}
